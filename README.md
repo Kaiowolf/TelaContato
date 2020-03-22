@@ -1,2 +1,2 @@
 # TelaContato
-Uma tela de Contato que Criei com HTML, CSS e JAVASCRIPT
+Uma tela de Contato que Criei com HTML, CSS e PHP
