@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deixe sua Mensagem</title>
+	<meta name="viewport" content="width=device-width, initital-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Deixa sua Mensagem aqui!</h2>
+				<form method="POST" action="./php/contactus.php">
+				<input type="text" class="field" placeholder="Nome e Sobre Nome" name="name">
+				<input type="email" class="field" placeholder="Seu E-mail" name="email">
+				<!--<input type="text" class="field" placeholder="Seu Telefone" name="phone">-->
+				<textarea class="field area" placeholder="Mensagem" name="message">
+				</textarea>
+				<button class="btn" type="submit">Lan&ccedil;a!</button>
+			</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
